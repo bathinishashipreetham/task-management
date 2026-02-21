@@ -1,0 +1,18 @@
+/* Remove default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make full viewport usable */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Prevent horizontal scroll */
+body {
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
